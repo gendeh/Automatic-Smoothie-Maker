@@ -226,6 +226,18 @@
 				)
 			)
 		)
+		(property "Label" "1M"
+			(at -2.56 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "be06340f-ca59-4b3c-b775-34f320a8c875")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0ee80e4f-9dcd-49e8-a237-e9f2bc60f8ef")
 		(sheetname "Root")
@@ -433,6 +445,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "Motor Driver"
+			(at 0.3018 -6.594994 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "114563e9-dcc7-41e4-ab6c-f138ef94948f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2167,6 +2191,42 @@
 				)
 			)
 		)
+		(property "Label" "1N5820"
+			(at 10.1872 -6.18 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b9299428-2ee6-4de1-b113-24c4ebf54178")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "+" "+"
+			(at -3.5328 -0.02 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "741e1fbe-472d-43ad-b83b-18b1ea696644")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "-" "-"
+			(at 22.0172 -0.07 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "12e3957f-9ccc-43cc-9841-de6ea183f5fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/969eea87-ab3f-4145-9099-357e1e3f642b")
 		(sheetname "Root")
@@ -2754,6 +2814,42 @@
 				)
 			)
 		)
+		(property "Label" "MBR0520"
+			(at 3.09 1.84 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b82b1e37-2eb6-486b-bc3e-5b99e2e214aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "+" "+"
+			(at -1.59 1.94 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8e419fc9-c583-427f-9042-c15b61fa056a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "-" "-"
+			(at 1.55 1.94 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8ee6e858-f327-46ac-b470-1a4f84e1c804")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/f4a67422-fa81-4122-b06e-c831a87ab605")
 		(sheetname "Root")
@@ -2989,7 +3085,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
-			(at -0.1 -1.79 0)
+			(at 0.03 1.85 0)
 			(layer "F.SilkS")
 			(uuid "65d08f83-02ab-47db-89a9-f18d74087a8c")
 			(effects
@@ -3045,6 +3141,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "1uF"
+			(at 0.09 -1.77 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "694ddaea-2b2b-4a33-bf17-312a3dc5b3ee")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3375,6 +3483,18 @@
 				)
 			)
 		)
+		(property "Label" "1uF"
+			(at -2.78 -0.1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "93a78038-876a-4903-a6aa-fb2e89e97cb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/413dfe49-c550-450b-9368-988bf3fae30e")
 		(sheetname "Root")
@@ -3588,6 +3708,18 @@
 				)
 			)
 		)
+		(property "Label" "0.1uF"
+			(at -2.685 -0.16415 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d0508974-8b23-4b10-96f1-f325edec889e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d489f713-26b7-41e1-b46b-b5432d5347a6")
 		(sheetname "Root")
@@ -3741,7 +3873,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 -1.65 0)
+			(at 0.08 1.7 0)
 			(layer "F.SilkS")
 			(uuid "cdf9961c-5e6b-4cda-9308-e756011d6efd")
 			(effects
@@ -3797,6 +3929,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "0 ohm"
+			(at 0.11 -2 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "bb1fe287-bfa3-44ec-8668-ae260c1197f6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4014,6 +4158,18 @@
 				)
 			)
 		)
+		(property "Label" "0.1uF"
+			(at -2.835 -0.21415 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "945061d3-3928-475b-a654-9935295e86c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1df19ef0-5ea1-4a40-aec6-93af9713deee")
 		(sheetname "Root")
@@ -4227,6 +4383,18 @@
 				)
 			)
 		)
+		(property "Label" "0.1uF"
+			(at -2.6 -0.22 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6c9571ac-9b9a-42a1-988f-8e5dbe434f85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/42c242d6-25a7-4fae-8beb-38611229a822")
 		(sheetname "Root")
@@ -4380,7 +4548,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
-			(at 0 -1.65 0)
+			(at -0.07 1.64 0)
 			(layer "F.SilkS")
 			(uuid "51785df2-782b-46d3-9ed8-553ed7606929")
 			(effects
@@ -4436,6 +4604,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "200m"
+			(at 0.04 -1.67 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "89549b31-496b-45cd-b429-ea208de35363")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4593,7 +4773,7 @@
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor handsolder")
 		(property "Reference" "L1"
-			(at 0 -1.55 0)
+			(at 0.02 1.66 0)
 			(layer "F.SilkS")
 			(uuid "5c2bc35a-dbd8-4c0b-bdad-d84f0c80d31d")
 			(effects
@@ -4649,6 +4829,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "47uH"
+			(at 0.06 -1.7 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6801888a-4c8c-4ee9-a41e-6e4c77d2e853")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4975,6 +5167,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "ADC"
+			(at 0.11415 -6.155 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "af4da2d9-8d8a-47f7-a2e4-65a24bc1eb70")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6097,6 +6301,18 @@
 				)
 			)
 		)
+		(property "Label" "1uF"
+			(at 2.715 0.04 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "70a46c89-fe27-4696-ac62-b32b2abe315c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b634c7a2-3368-43e8-abff-71c97c687091")
 		(sheetname "Root")
@@ -6306,6 +6522,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "30k"
+			(at -2.66 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2440fb27-bc9a-41dc-89f3-ea7894b986ee")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7393,6 +7621,42 @@
 				)
 			)
 		)
+		(property "Label" "330uF"
+			(at -7.88 -0.18 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7ac3260d-fb83-4092-9ffe-78262f401f9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "+" "+"
+			(at -8.04 -3.71 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "13ffe8b7-19c6-41f3-b314-011fabac7fdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "-" "-"
+			(at 7.45 -3.82 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "1603e7d6-8d58-46dc-a2ed-3ca87af17f51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/8300e373-918b-462d-b360-018c2ccac903")
 		(sheetname "Root")
@@ -7837,6 +8101,18 @@
 				)
 			)
 		)
+		(property "Label" "10k"
+			(at -2.72 -0.01 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fe8424bc-391a-4c41-a337-d0d566b27cce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/41ce8f03-f7c2-48a2-8f05-b5bcfef04870")
 		(sheetname "Root")
@@ -8046,6 +8322,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "Stepper Motor 1"
+			(at 11.15 -0.23 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0bbd459c-0815-43fc-880a-4d6dc603c239")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8540,6 +8828,18 @@
 				)
 			)
 		)
+		(property "Label" "Stepper Motor 2"
+			(at 10.37 0.28 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a80144c2-4ab3-45e8-b41e-0a32ae0050b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/014489f5-2fb7-441e-80f0-ebd997e590fe")
 		(sheetname "Root")
@@ -9030,6 +9330,18 @@
 				)
 			)
 		)
+		(property "Label" "0.1uF"
+			(at -2.73 -0.21 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "bc3bf515-c9f3-4085-bfa2-f138b5f4b687")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/45aafc0e-6bb9-49bf-a0eb-dc2e58c0b4c9")
 		(sheetname "Root")
@@ -9183,7 +9495,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J10"
-			(at 1.27 -4.12 0)
+			(at -0.71 4.25 0)
 			(layer "F.SilkS")
 			(uuid "33de746f-1a3b-454f-b5e8-d992fe9071c1")
 			(effects
@@ -9239,6 +9551,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "Vin"
+			(at 1.31 -4.47 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6f49a1b6-7a8a-4b37-bfe3-9c08fe5b3fa4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "+" "+"
+			(at 3.14 -4.46 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "eff39448-64d9-4682-a91c-4af07b867bfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "-" "-"
+			(at -0.55 -4.46 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "efbf77b8-8115-4918-8aa8-1f042779f7a2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9591,7 +9939,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J1"
-			(at 1.47 -4.87 0)
+			(at 1.12 4.16 0)
 			(layer "F.SilkS")
 			(uuid "ad6bf1b8-e9e0-4cd5-b98c-dd49148d304a")
 			(effects
@@ -9647,6 +9995,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "Up B"
+			(at 1.24 -4.48 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "20c25dbc-91cb-4153-808e-9e93d9a03b26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "+" "+"
+			(at -0.21 4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "4b7c4b57-001f-485b-a03c-132fe43a2bdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "-" "-"
+			(at 2.63 3.98 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d5897d9e-2f1b-45c7-ad76-85573437a9be")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10059,6 +10443,42 @@
 				)
 			)
 		)
+		(property "Label" "100uF"
+			(at -2.78 -0.23 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "785b2701-a89b-474b-93b7-c6870074be14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "+" "+"
+			(at -1.11 1.71 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b04676ed-625a-4974-80c9-1f2b4f2a18bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "-" "-"
+			(at 0.98 1.71 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "019d409b-6412-4ecc-811b-3d39ec821935")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/b685e84c-2f44-4c15-90be-e722df720e28")
 		(sheetname "Root")
@@ -10268,6 +10688,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "Load Cell"
+			(at 10.835 -0.00585 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ab9f3f5f-1bcb-46b7-81cb-4e54e0cb742e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10702,7 +11134,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J2"
-			(at 1.27 -4.12 0)
+			(at 1.24 4.08 0)
 			(layer "F.SilkS")
 			(uuid "385cc630-c913-498c-a5e0-2f0c7a7dafaf")
 			(effects
@@ -10758,6 +11190,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "Down B"
+			(at 1.17 -4.41 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a3db6d32-7303-479a-b760-8cf296826c81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "+" "+"
+			(at -0.16 3.98 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "662a53aa-74e9-4712-bf35-3090e6e07521")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "-" "-"
+			(at 2.72 3.91 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8dc38687-1558-4111-aaf1-c29d28c52d08")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11110,7 +11578,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
-			(at 0 -1.65 0)
+			(at -0.04 1.69 0)
 			(layer "F.SilkS")
 			(uuid "77e13409-6859-40f0-857a-9d9dff4886c0")
 			(effects
@@ -11166,6 +11634,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "200m"
+			(at 0.04 -1.61 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f588c4a0-d3b9-4ce2-b609-ac3b18d32735")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11383,6 +11863,18 @@
 				)
 			)
 		)
+		(property "Label" "0.1uF"
+			(at -2.66 -0.16 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2750e2e8-d1ba-4092-addb-5ba792492f71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/62137630-cb57-4e0b-99f7-b83092bb9d96")
 		(sheetname "Root")
@@ -11596,6 +12088,18 @@
 				)
 			)
 		)
+		(property "Label" "105uF"
+			(at 0.01 3.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "1cc0f872-491f-452f-9561-bdaa4f8710c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1624e4eb-7486-4b25-b8db-fe56c7ed95a0")
 		(sheetname "Root")
@@ -11805,6 +12309,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "Solenoid Valve"
+			(at -2.71 -1.01 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "32e4429c-55f7-4122-b329-4e435736451f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12157,7 +12673,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R13"
-			(at 0 -1.65 0)
+			(at -0.01585 1.735 0)
 			(layer "F.SilkS")
 			(uuid "658c3bc7-c0ba-4036-a7ac-a468637d7549")
 			(effects
@@ -12213,6 +12729,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "47 ohms"
+			(at -0.04585 -1.805 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "303bba29-eae3-4f87-b3b5-52832781cccb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12370,7 +12898,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J4"
-			(at 1.27 -4.12 0)
+			(at 1.16 4.08 0)
 			(layer "F.SilkS")
 			(uuid "978beda8-d8f8-4a90-8fc1-d8018eaedf2d")
 			(effects
@@ -12426,6 +12954,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "Next Recipe B"
+			(at 1.6 -4.44 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "cbf07229-c9a0-4dea-bcbd-8d3f8f28b839")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "+" "+"
+			(at -0.34 4.06 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "cd577b70-ec8a-44cd-acb1-7fdd118e91a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "-" "-"
+			(at 2.88 4.14 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fac4b5e3-41a2-4f76-b94e-ecba6cae67a0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12832,6 +13396,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "Relay"
+			(at 0.05 -2.93 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ee07ffab-e275-4085-a8bd-ab781bddb207")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14090,6 +14666,18 @@
 				)
 			)
 		)
+		(property "Label" "Buck Converter"
+			(at -5.19 -0.205 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "551037da-9359-4917-af2a-fffcf3adeb40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/1cffbd8c-4366-4866-bc69-e374952121b5")
 		(sheetname "Root")
@@ -14401,6 +14989,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "470uF"
+			(at -8.25 4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "778e5f38-213b-4c87-a8f3-a05da465542f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "+" "+"
+			(at -8.7 -0.13 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8cd05abc-6cbe-4469-8a67-8f405e143fb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "-" "-"
+			(at 8.55 0.02 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a44936de-5e79-4bc4-91de-bba64a73b0dc")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14837,6 +15461,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "LCD"
+			(at -2.78 -0.07 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d3306720-e476-4955-bdfc-a98f7498daeb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15331,6 +15967,18 @@
 				)
 			)
 		)
+		(property "Label" "50k"
+			(at -2.63 -0.05 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f18a2abe-0bbe-468b-a28b-330b2e26f097")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dae5900a-ba75-41a7-a5f2-5ce8855bd8d6")
 		(sheetname "Root")
@@ -15544,6 +16192,18 @@
 				)
 			)
 		)
+		(property "Label" "0.1uF"
+			(at 2.6275 -0.13 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "16f8fafb-328f-4f85-9643-2b16401d16c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c2812916-b217-4453-abd5-291110017320")
 		(sheetname "Root")
@@ -15697,7 +16357,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J3"
-			(at 1.27 -4.12 0)
+			(at 1.3 4.18 0)
 			(layer "F.SilkS")
 			(uuid "59a4ae03-07a1-4f9a-ba9b-8812cdd27616")
 			(effects
@@ -15753,6 +16413,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "Next Ingred B"
+			(at 1.33 -4.48 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "68e6e382-5bd6-46b2-b61f-91f7c062cea0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "+" "+"
+			(at -0.21 4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7262bf34-6b98-451e-8987-4348b4ae10d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "-" "-"
+			(at 2.93 4.03 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "231390d5-d0fa-49ef-aac8-5662ee7f6f79")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16105,7 +16801,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at 0 -1.65 0)
+			(at -0.06 1.650001 0)
 			(layer "F.SilkS")
 			(uuid "c5687687-c67c-48d0-a564-8806cadccb28")
 			(effects
@@ -16161,6 +16857,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "0 ohm"
+			(at -0.26 -1.819999 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "877ebf69-e090-4239-a8a7-6d56ca8fd1f6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16491,6 +17199,18 @@
 				)
 			)
 		)
+		(property "Label" "0.1uF"
+			(at -2.87 -0.31 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "76313fc6-3f09-4b44-95c7-b45c98580f8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/13b87738-e8fd-486c-9f75-961734593fd3")
 		(sheetname "Root")
@@ -16817,6 +17537,18 @@
 				)
 			)
 		)
+		(property "Label" "0.47uF"
+			(at -2.82 -0.32 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "002b2f04-2911-480b-94c3-d3324b84be5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7d4ad684-df21-408c-bcf6-f7a2bbad0086")
 		(sheetname "Root")
@@ -17024,6 +17756,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "MOSFET"
+			(at 1.29 2.53 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "da25ccff-19aa-4350-8ab1-d1359459c5f1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17281,6 +18025,18 @@
 				)
 			)
 		)
+		(property "Label" "22uF"
+			(at -2.91 -0.18 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "1da2c984-49c5-45c0-929e-49e78b1eb6a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/84ea4e02-62fc-4ce2-98b5-586571cff546")
 		(sheetname "Root")
@@ -17434,7 +18190,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R14"
-			(at 0 -1.5 0)
+			(at -0.01585 1.745 0)
 			(layer "F.SilkS")
 			(uuid "6f3d16fb-ff8a-499a-9f84-59ebf410ac6d")
 			(effects
@@ -17490,6 +18246,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "47 ohms"
+			(at -0.18585 -1.895 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "334c2c66-cd72-445e-9c7d-6cf91b832e22")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17707,6 +18475,18 @@
 				)
 			)
 		)
+		(property "Label" "0.1uF"
+			(at -2.7125 -0.16415 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "bbf782ab-ac1e-4b28-a322-a2c14c8e3202")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ce062f63-815f-4890-bda0-85499df90d2e")
 		(sheetname "Root")
@@ -17863,6 +18643,18 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "10b68f19-d37e-41bd-8cb3-81d7325a8f6c")
+	)
+	(gr_text "SmoothieMachine\n03-31-2025\nTeam 49"
+		(at 159.69 135.61 0)
+		(layer "F.SilkS")
+		(uuid "95bd5200-8bb0-4a97-b35f-e511fbca1fd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 118.0375 81.4625)

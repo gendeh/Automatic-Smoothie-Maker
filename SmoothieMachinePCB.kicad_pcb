@@ -2936,337 +2936,6 @@
 			)
 		)
 	)
-	(footprint "Diode_SMD:D_SOD-123"
-		(layer "F.Cu")
-		(uuid "085b833c-5aee-4c40-8bf7-7e9c0f0d83fc")
-		(at 90.5 81 -90)
-		(descr "SOD-123")
-		(tags "SOD-123")
-		(property "Reference" "D1"
-			(at 0 -2 90)
-			(layer "F.SilkS")
-			(uuid "350c1f3d-e12c-4c7b-a2be-83d006bdc175")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MBR0520"
-			(at 0 2.1 90)
-			(layer "F.Fab")
-			(uuid "1e0cae0d-3cc2-4912-ae38-09db043956d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "901e09bb-6da8-4ead-a39d-7d406feb75f9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d37b4159-abd6-4464-b931-3c1cc22b256b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "20V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fffcedd4-7694-478f-a0cb-ad46802fbdc8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Label" "MBR0520"
-			(at 3.09 1.84 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "b82b1e37-2eb6-486b-bc3e-5b99e2e214aa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "+" "+"
-			(at -1.59 1.94 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "8e419fc9-c583-427f-9042-c15b61fa056a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "-" "-"
-			(at 1.55 1.94 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "8ee6e858-f327-46ac-b470-1a4f84e1c804")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "D*SOD?123*")
-		(path "/f4a67422-fa81-4122-b06e-c831a87ab605")
-		(sheetname "Root")
-		(sheetfile "SmoothieMachinePCB.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -2.36 1)
-			(end 1.65 1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fcacea60-601c-4222-94ac-7a123ba3e80a")
-		)
-		(fp_line
-			(start -2.36 -1)
-			(end -2.36 1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8f87e190-15ba-49af-97a7-e22ac03b2977")
-		)
-		(fp_line
-			(start -2.36 -1)
-			(end 1.65 -1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c2b47065-2ad2-4d06-88f1-a02f498942cb")
-		)
-		(fp_line
-			(start 2.35 1.15)
-			(end -2.35 1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "45aed550-08c3-4c0d-9e11-dcd98abe30c8")
-		)
-		(fp_line
-			(start -2.35 -1.15)
-			(end -2.35 1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "92acf595-75f2-4584-aa90-572ae6fe0a1b")
-		)
-		(fp_line
-			(start -2.35 -1.15)
-			(end 2.35 -1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f19ccb60-9bba-40bd-9085-c55184a671aa")
-		)
-		(fp_line
-			(start 2.35 -1.15)
-			(end 2.35 1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "980e4197-6bc4-4d5e-b2af-8d4f772bc5a4")
-		)
-		(fp_line
-			(start -1.4 0.9)
-			(end -1.4 -0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2ef4dc4a-8ff1-435a-9759-b9e6edf63323")
-		)
-		(fp_line
-			(start 1.4 0.9)
-			(end -1.4 0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "479233f4-9a99-408d-8d22-31c265a20006")
-		)
-		(fp_line
-			(start 0.25 0.4)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1b7da874-2613-4d40-8efa-441a158a375b")
-		)
-		(fp_line
-			(start -0.75 0)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "09bb2704-1cdc-41d4-a6fa-000bc7161533")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end -0.35 0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7000aa79-36e8-444a-b480-80160716064b")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end 0.25 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bf0d31cf-2784-4696-b711-c05e186b84d0")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end -0.35 -0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4dfba73f-a25d-40c9-b3be-9424e6047149")
-		)
-		(fp_line
-			(start 0.25 0)
-			(end 0.75 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "912278e2-fc48-40e0-bbfc-86dd4ff189d9")
-		)
-		(fp_line
-			(start 0.25 -0.4)
-			(end 0.25 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "06ef5d85-6df2-462e-a33e-33c0beaabef0")
-		)
-		(fp_line
-			(start -1.4 -0.9)
-			(end 1.4 -0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8b8655bc-2cb0-42db-96cc-f044e65db1d0")
-		)
-		(fp_line
-			(start 1.4 -0.9)
-			(end 1.4 0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "af556382-3059-4b80-96e0-1593021afd59")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 90)
-			(layer "F.Fab")
-			(uuid "bd181f26-a5db-44c2-b1fd-d810f09f5361")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.65 0 270)
-			(size 0.9 1.2)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 3 "+12V")
-			(pinfunction "K")
-			(pintype "passive")
-			(uuid "3208e7ae-3efb-4594-a14c-d7775b34779c")
-		)
-		(pad "2" smd roundrect
-			(at 1.65 0 270)
-			(size 0.9 1.2)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 11 "Net-(D1-A)")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "8240b544-e4cc-4a0d-8ed6-005341c11be3")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
 		(layer "F.Cu")
 		(uuid "0c3249ef-4c0c-4c4c-81bb-0961a6b1541e")
@@ -5171,7 +4840,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C14"
-			(at 3.29 -4.67 360)
+			(at 3.29 -4.67 0)
 			(layer "F.SilkS")
 			(uuid "8db9e599-2f39-4259-aa9a-e1fa74c19530")
 			(effects
@@ -5182,7 +4851,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "e9b088e3-9ae3-4eec-9643-535efc5fa51d")
 			(effects
@@ -5349,7 +5018,7 @@
 			(uuid "d2d8d405-37fd-4ac9-b961-a4432f962999")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "67e9400d-151d-4b3a-b6b5-70a9d0539fff")
 			(effects
@@ -8778,7 +8447,7 @@
 		(descr "Through hole IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC box header THT 2x05 2.54mm double row")
 		(property "Reference" "J12"
-			(at 1.27 -6.1 360)
+			(at 1.27 -6.1 0)
 			(layer "F.SilkS")
 			(uuid "832fa2b7-5c04-41e2-9dc7-b3b418297731")
 			(effects
@@ -8789,7 +8458,7 @@
 			)
 		)
 		(property "Value" "Conn_ARM_JTAG_SWD_10"
-			(at 1.27 16.26 360)
+			(at 1.27 16.26 0)
 			(layer "F.Fab")
 			(uuid "24edada6-d8ad-47e0-bd70-fd11450d1aa8")
 			(effects
@@ -9529,7 +9198,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "bfb4f946-fe6d-4222-b2d9-36d8a356d857")
 			(effects
@@ -9540,7 +9209,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "785643a1-090d-4740-ad9c-41204e44515d")
 			(effects
@@ -9695,7 +9364,7 @@
 			(uuid "8aea3e2c-4361-4b66-b3dc-87827da0e1e8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "989e563c-5df8-44f7-9154-79d6ba867559")
 			(effects
@@ -14783,7 +14452,7 @@
 				)
 			)
 		)
-		(property "Label" "0.1uF"
+		(property "Label" "0.01uF"
 			(at -2.73 -0.21 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -16944,7 +16613,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-04A example for new part number: 22-27-2041, 4 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J9"
-			(at 3.45 4.18 360)
+			(at 3.45 4.18 0)
 			(layer "F.SilkS")
 			(uuid "2da5a964-e1ea-49df-938f-1f59b330d3ac")
 			(effects
@@ -16955,7 +16624,7 @@
 			)
 		)
 		(property "Value" "LoadCell"
-			(at 3.81 4.08 360)
+			(at 3.81 4.08 0)
 			(layer "F.Fab")
 			(uuid "1108b5d0-0a38-40f4-bcd5-31124f91dc24")
 			(effects
@@ -17372,7 +17041,7 @@
 			(uuid "fef28d88-7c24-4d85-9bcd-abade1375aee")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 -2.22 360)
+			(at 3.81 -2.22 0)
 			(layer "F.Fab")
 			(uuid "efe16f53-d7c0-4ca4-977e-2facdce4047d")
 			(effects
@@ -20064,7 +19733,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J4"
-			(at 1.16 4.08 360)
+			(at 1.16 4.08 0)
 			(layer "F.SilkS")
 			(uuid "978beda8-d8f8-4a90-8fc1-d8018eaedf2d")
 			(effects
@@ -20075,7 +19744,7 @@
 			)
 		)
 		(property "Value" "Next Recipe Button"
-			(at 1.27 4.08 360)
+			(at 1.27 4.08 0)
 			(layer "F.Fab")
 			(uuid "74dec626-f91c-4e69-b30c-843c3e50a778")
 			(effects
@@ -20456,7 +20125,7 @@
 			(uuid "00d45223-ffd1-47a4-9622-4561f574f999")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.22 360)
+			(at 1.27 -2.22 0)
 			(layer "F.Fab")
 			(uuid "92162ed4-4b2c-4321-a4e7-99e5d09dd2a3")
 			(effects
@@ -23431,7 +23100,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(uuid "7d833260-5f4e-4822-b795-ab7fb34c4128")
 			(effects
@@ -23442,7 +23111,7 @@
 			)
 		)
 		(property "Value" "SS8050"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "63aa3862-abb4-4bb4-8265-eef47d93f3bc")
 			(effects
@@ -23453,7 +23122,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "79208426-0268-493b-b237-3a7f4979894e")
@@ -23465,7 +23134,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "15e1b997-07cd-4a90-9561-6952fa8173e7")
@@ -23477,7 +23146,7 @@
 			)
 		)
 		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5850c786-c670-4852-9566-658c06cecd15")
@@ -23636,7 +23305,7 @@
 			(uuid "680736af-4c5c-4b4b-9d76-206a8561d0d7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "375242a5-3db3-46e1-a378-d775962e0fd9")
 			(effects
@@ -24526,7 +24195,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J3"
-			(at 1.3 4.18 360)
+			(at 1.3 4.18 0)
 			(layer "F.SilkS")
 			(uuid "59a4ae03-07a1-4f9a-ba9b-8812cdd27616")
 			(effects
@@ -24537,7 +24206,7 @@
 			)
 		)
 		(property "Value" "Next Ingredient Button"
-			(at 1.27 4.08 360)
+			(at 1.27 4.08 0)
 			(layer "F.Fab")
 			(uuid "a23f4e65-da75-4b76-94ac-04039723c906")
 			(effects
@@ -24918,7 +24587,7 @@
 			(uuid "3f90fc27-d89f-479b-8baa-163d8d344744")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.22 360)
+			(at 1.27 -2.22 0)
 			(layer "F.Fab")
 			(uuid "e959b938-f3e6-4ffe-92d3-26c10b582a2e")
 			(effects
@@ -30195,6 +29864,346 @@
 			(uuid "9afd1de6-ead5-45ea-88aa-ab213c00b776")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Diode_SMD:D_SOD-123"
+		(layer "B.Cu")
+		(uuid "085b833c-5aee-4c40-8bf7-7e9c0f0d83fc")
+		(at 90.5 81 -90)
+		(descr "SOD-123")
+		(tags "SOD-123")
+		(property "Reference" "D1"
+			(at 0 2 90)
+			(layer "B.SilkS")
+			(uuid "350c1f3d-e12c-4c7b-a2be-83d006bdc175")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MBR0520"
+			(at 0 -2.1 90)
+			(layer "B.Fab")
+			(uuid "1e0cae0d-3cc2-4912-ae38-09db043956d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "901e09bb-6da8-4ead-a39d-7d406feb75f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d37b4159-abd6-4464-b931-3c1cc22b256b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "20V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fffcedd4-7694-478f-a0cb-ad46802fbdc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Label" "MBR0520"
+			(at 3.09 -1.84 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "b82b1e37-2eb6-486b-bc3e-5b99e2e214aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "+" "+"
+			(at -1.59 -1.94 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "8e419fc9-c583-427f-9042-c15b61fa056a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "-" "-"
+			(at 1.55 -1.94 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "8ee6e858-f327-46ac-b470-1a4f84e1c804")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "D*SOD?123*")
+		(path "/f4a67422-fa81-4122-b06e-c831a87ab605")
+		(sheetname "Root")
+		(sheetfile "SmoothieMachinePCB.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 1.65 1)
+			(end -2.36 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "c2b47065-2ad2-4d06-88f1-a02f498942cb")
+		)
+		(fp_line
+			(start -2.36 -1)
+			(end -2.36 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "8f87e190-15ba-49af-97a7-e22ac03b2977")
+		)
+		(fp_line
+			(start 1.65 -1)
+			(end -2.36 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "fcacea60-601c-4222-94ac-7a123ba3e80a")
+		)
+		(fp_line
+			(start 2.35 1.15)
+			(end -2.35 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "f19ccb60-9bba-40bd-9085-c55184a671aa")
+		)
+		(fp_line
+			(start -2.35 -1.15)
+			(end -2.35 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "92acf595-75f2-4584-aa90-572ae6fe0a1b")
+		)
+		(fp_line
+			(start -2.35 -1.15)
+			(end 2.35 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "45aed550-08c3-4c0d-9e11-dcd98abe30c8")
+		)
+		(fp_line
+			(start 2.35 -1.15)
+			(end 2.35 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "980e4197-6bc4-4d5e-b2af-8d4f772bc5a4")
+		)
+		(fp_line
+			(start -1.4 0.9)
+			(end -1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "2ef4dc4a-8ff1-435a-9759-b9e6edf63323")
+		)
+		(fp_line
+			(start 1.4 0.9)
+			(end -1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "8b8655bc-2cb0-42db-96cc-f044e65db1d0")
+		)
+		(fp_line
+			(start -0.35 0.55)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "4dfba73f-a25d-40c9-b3be-9424e6047149")
+		)
+		(fp_line
+			(start 0.25 0.4)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "bf0d31cf-2784-4696-b711-c05e186b84d0")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "09bb2704-1cdc-41d4-a6fa-000bc7161533")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end 0.25 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "1b7da874-2613-4d40-8efa-441a158a375b")
+		)
+		(fp_line
+			(start 0.75 0)
+			(end 0.25 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "912278e2-fc48-40e0-bbfc-86dd4ff189d9")
+		)
+		(fp_line
+			(start 0.25 -0.4)
+			(end 0.25 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "06ef5d85-6df2-462e-a33e-33c0beaabef0")
+		)
+		(fp_line
+			(start -0.35 -0.55)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "7000aa79-36e8-444a-b480-80160716064b")
+		)
+		(fp_line
+			(start -1.4 -0.9)
+			(end 1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "479233f4-9a99-408d-8d22-31c265a20006")
+		)
+		(fp_line
+			(start 1.4 -0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "af556382-3059-4b80-96e0-1593021afd59")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2 90)
+			(layer "B.Fab")
+			(uuid "bd181f26-a5db-44c2-b1fd-d810f09f5361")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.65 0 270)
+			(size 0.9 1.2)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.25)
+			(net 3 "+12V")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "3208e7ae-3efb-4594-a14c-d7775b34779c")
+		)
+		(pad "2" smd roundrect
+			(at 1.65 0 270)
+			(size 0.9 1.2)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.25)
+			(net 11 "Net-(D1-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "8240b544-e4cc-4a0d-8ed6-005341c11be3")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
